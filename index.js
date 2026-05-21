@@ -6,6 +6,7 @@ const loggerMiddleware = function(req, res, next) {
   next();
 };
 
+
 app.use(loggerMiddleware);
 
 // GETリクエスト
